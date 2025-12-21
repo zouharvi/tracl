@@ -34,6 +34,7 @@
     #box(height: 5cm, width: 1fr)[
       #align(center)[
         #if use-title {
+          show title: text.with(size: 15pt)
           title()
           v(2.2em)
         } else {
